@@ -1,0 +1,15 @@
+package com.itfactory;
+
+public class Main {
+
+    public static void main(String[] args) {
+      
+        String mesaj = "Am DecIs Sa ImI faC TeMa AstAzI";
+        
+        String mesajLowerCase = mesaj.toLowerCase();
+        System.out.println(mesajLowerCase);
+       
+        String mesajUpperCase = mesaj.toUpperCase();
+        System.out.println(mesajUpperCase);
+    }
+}
